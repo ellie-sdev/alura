@@ -23,7 +23,8 @@ padding: 2px; /*adiciona o mesmo espaçamento em todos os lados (horizontal e ve
 padding: 2px 3px; /*valor 1 = eixo vertical | valor 2 = eixo horizontal*/
 padding: 2px 3px 4px 5px; /*valor 1 = esp superior | valor 2 = esp direita | valor 3 = esp inferior | valor 4 = esp esquerda*/
 
-@import url('https://seuenderecoaqui'); /*importa um outro documento ou link*/
+@import url('https://seuenderecoaqui'); 
+importa um outro documento ou link
 
 :root{
     --crie-variavel: valor;
