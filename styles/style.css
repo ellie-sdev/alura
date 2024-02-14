@@ -56,12 +56,12 @@ body {
 .apresentacao__conteudo {
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     gap: 40px;
 }
 
 .apresentacao__imagem {
-    width: 50%;
+    width: 40%;
     border-radius: 20px;
 }
 
