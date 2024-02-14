@@ -1,5 +1,9 @@
+![print da tela inicial do projeto](/assets/images/tux.png)
+
 # Anotações 🗒️
+
 Notas para não esquecer!!
+Para acessar o site, basta clicar [neste link](https://alura-liard-theta.vercel.app/)
 
 ## Atalhos vsCode
 
