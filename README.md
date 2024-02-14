@@ -1,4 +1,4 @@
-# Anotações
+# Anotações 🗒️
 Notas para não esquecer!!
 
 ## Atalhos vsCode
