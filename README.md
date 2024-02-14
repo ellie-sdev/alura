@@ -1,6 +1,6 @@
-    ![print da tela inicial do projeto](assets/print-pagina.png)
-
 # Anotações 🗒️
+
+![print da tela inicial do projeto](https://github.com/ellie-sdev/alura/assets/print-pagina.png)
 
 Notas para não esquecer!!
 Para acessar o site, basta clicar [neste link](https://alura-liard-theta.vercel.app/)
