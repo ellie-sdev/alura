@@ -1,9 +1,11 @@
-# Anotações 🗒️
+# Vista do projeto
+<div align=middle>
+<img width=50%  src="https://github.com/ellie-sdev/alura/blob/main/assets/print-pagina.png" alt="print da tela inicial do projeto"></div>
 
-![print da tela inicial do projeto](https://github.com/ellie-sdev/alura/assets/print-pagina.png)
+ [Clique aqui](https://alura-liard-theta.vercel.app/) para acessar o site do projeto!
 
-Notas para não esquecer!!
-Para acessar o site, basta clicar [neste link](https://alura-liard-theta.vercel.app/)
+# README 🗒️
+Dicas e anotações para não esquecer!!
 
 ## Atalhos vsCode
 
@@ -15,7 +17,8 @@ ALT+Z limita o texto no display (quebra de parágrafo)
 
 manter a tecla ALT pressionada e clicar, insere o cursor de texto em vários lugares para digitar ao mesmo tempo
 
-<!--seu comentário aqui--> insere comentários
+><!--seu comentário aqui-->
+insere comentários
 /*seu comentário aqui*/ insere comentários no arquivo.CSS
 
 ! + tab insere script base html no arquivo.html
