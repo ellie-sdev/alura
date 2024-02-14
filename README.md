@@ -1,4 +1,4 @@
-![print da tela inicial do projeto](/assets/images/tux.png)
+    ![print da tela inicial do projeto](./assets/print-pagina.png)
 
 # Anotações 🗒️
 
