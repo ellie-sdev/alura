@@ -1,4 +1,3 @@
-# Vista do projeto
 <div align=middle>
 <img width=50%  src="https://github.com/ellie-sdev/alura/blob/main/assets/print-pagina.png" alt="print da tela inicial do projeto"></div>
 
