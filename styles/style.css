@@ -87,7 +87,7 @@ body {
 .apresentacao__imagem {
     width: 40%;
     border: 5px solid var(--cor-hover);
-    border-radius: 3em 3em 3em 0;
+    border-radius: 15% 15% 15% 0;
 }
 
 .apresentacao__conteudo__titulo {
@@ -164,7 +164,7 @@ body {
 
 @media (max-width: 1200px) {
     .cabecalho {
-        padding: 8%;
+        padding: 2% 5%;
     }
 
     .cabecalho__menu {
@@ -173,13 +173,23 @@ body {
 
     .apresentacao {
         flex-direction: column-reverse;
-        padding: 0 8% 8% 8%;
-        gap: 80px;
+        padding: 8% 10%;
+        gap: 50px;
         
     }
 
     .apresentacao__conteudo{
         width: auto;
+
     }
-    
+
+    .apresentacao__conteudo__texto {
+        text-align: justify;
+    }
+
+    .apresentacao__botoes__subtitulo {
+        font-size: 2rem;
+        text-align: center;
+    }
+
 }
