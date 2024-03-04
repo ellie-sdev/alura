@@ -2,8 +2,10 @@
 
 :root {
     --cor-primaria: #132043;
+    --degrade-azul: linear-gradient(to top, var(--cor-primaria)20%, var(--cor-hover));
     --cor-secundaria: #FDF0F0;
     --cor-terciaria: #d27e88;
+    --filtro-cor-terciaria: brightness(0) saturate(100%) invert(73%) sepia(35%) saturate(1654%) hue-rotate(301deg) brightness(94%) contrast(73%);
     --cor-hover: #1F4172;
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria: 'Montserrat', sans-serif;
@@ -13,12 +15,13 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
 
     box-sizing: border-box;
-    background-color: var(--cor-primaria);
+    background-image: var(--degrade-azul);
     color: var(--cor-secundaria);
 
 }
@@ -43,12 +46,33 @@ body {
 
 }
 
+.cabecalho__titulo::before {
+    content: '';
+    height: 3px;
+    width: 100%;
+    display: block;
+    background: var(--cor-terciaria);
+    border-radius: 3px;
+    margin-bottom: 0.7em;
+    transform: scaleX(0);
+    transition: transform.5s;
+    transform-origin: left;
+
+}
+
+.cabecalho__titulo:hover::before {
+    transform: scaleX(1);
+    transition: transform.5s;
+    transform-origin: right;
+}
+
 .apresentacao {
     display: flex;
     padding: 5% 15%;
     align-items: center;
     justify-content: space-between;
     gap: 82px;
+    border-top: 3px solid var(--cor-hover);
 
 
 }
@@ -56,13 +80,14 @@ body {
 .apresentacao__conteudo {
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 60%;
     gap: 40px;
 }
 
 .apresentacao__imagem {
     width: 40%;
-    border-radius: 20px;
+    border: 5px solid var(--cor-hover);
+    border-radius: 3em 3em 3em 0;
 }
 
 .apresentacao__conteudo__titulo {
@@ -78,6 +103,10 @@ body {
 .apresentacao__conteudo__texto {
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
+}
+
+.apresentacao__conteudo__texto strong {
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__botoes {
@@ -99,7 +128,7 @@ body {
     color: var(--cor-secundaria);
     border-width: 2px;
     border-style: solid;
-    border-color: var(--cor-terciaria);
+    border-color: var(--cor-secundaria);
     align-items: center;
     gap: 16px;
     justify-content: center;
@@ -111,10 +140,16 @@ body {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
+    box-shadow: var(--cor-primaria);
+    outline: none;
 }
 
 .apresentacao__botoes__links:hover {
     background-color: var(--cor-hover);
+}
+
+.botoes__icones {
+    filter: var(--filtro-cor-terciaria);
 }
 
 .rodape {
