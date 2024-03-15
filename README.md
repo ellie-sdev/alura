@@ -7,6 +7,7 @@
 
 Primeiro portfólio.
 Desenvolvido através do conhecimento addquirido no curso de Front-end da Alura.
+Implementado e atualizado.
 
 # Ferramentas utilizadas:
 
@@ -15,4 +16,4 @@ Desenvolvido através do conhecimento addquirido no curso de Front-end da Alura.
 
 # Linkedin
 
-https://www.linkedin.com/in/let%C3%ADcia--desousa/
+https://www.linkedin.com/in/leticia--desousa/
