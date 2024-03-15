@@ -43,8 +43,6 @@ body {
     font-weight: 600;
     text-decoration: none;
     padding: 21.5px 0;
-    text-shadow: 2px 2px 4px var(--cor-sombra);
-
 }
 
 .cabecalho__titulo::before {
@@ -55,7 +53,6 @@ body {
     background: var(--cor-terciaria);
     border-radius: 3px;
     margin-bottom: 0.7em;
-    box-shadow: 2px 2px 4px var(--cor-sombra);
     transform: scaleX(0);
     transition: transform.5s;
     transform-origin: left;
